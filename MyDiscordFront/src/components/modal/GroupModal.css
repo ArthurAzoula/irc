@@ -1,0 +1,50 @@
+.groupmodal_container {
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem
+}
+
+.groupmodal_header {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.groupmodal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.groupmodal_form_inputs {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.groupmodal_form label {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  white-space: nowrap;
+}
+
+.groupmodal_form input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  background-color: var(--primary-100);
+}
+
+.groupmodal_asynselect {
+  width: 100%;
+}
+
+.groupmodal_form_buttonaction:hover {
+  transform: translate(1.05, 1.05) rotate(1.05, 1.05) skewX(1.05) skewY(1.05) scaleX(1.05) scaleY(1.05);
+}

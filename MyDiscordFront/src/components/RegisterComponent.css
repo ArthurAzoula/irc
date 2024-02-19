@@ -1,0 +1,96 @@
+.registercomponent_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-100);
+  min-height: 100vh;
+  padding: 5rem 0;
+}
+
+.registercomponent_container_sub {
+  margin: 0 3rem;
+  width: 100%;
+  max-width: 32rem;
+}
+
+.registercomponent_container_sub > h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.registercomponent_container_sub > form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.registercomponent_name_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.registercomponent_username_email_password_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.registercomponent_container input:not([type='checkbox']) {
+  height: 3.5rem;
+  padding: 1rem;
+}
+
+.registercomponent_name_input {
+  width: 100%;
+}
+
+.registercomponent_checkbox_container {
+  display: flex;
+  margin: 0.5rem;
+}
+
+.registercomponent_container input[type='checkbox'] {
+  margin-right: 0.5rem;
+}
+
+.registercomponent_buttons_container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+  flex-direction: column;
+  
+}
+
+.registercomponent_button_login {
+  gap: 2.5rem;
+  padding: 1rem;
+  border-width: 2px;
+  border-radius: 0.75rem;
+  border-color: var(--primary-400);
+  color: var(--primary-400);
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .registercomponent_container_sub {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .registercomponent_buttons_container {
+    flex-direction: row;
+  }
+  
+  .registercomponent_name_container {
+    flex-direction: row;
+  }
+}

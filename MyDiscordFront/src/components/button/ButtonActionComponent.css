@@ -1,0 +1,25 @@
+.buttonactioncomponent_button {
+  background-color: var(--primary-400);
+  padding: 0.25rem 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.buttonactioncomponent_button:hover {
+  transform: translate(1.1, 1.1) rotate(1.1, 1.1) skewX(1.1) skewY(1.1) scaleX(1.1) scaleY(1.1);
+  background-color: var(--primary-500);
+}
+
+.buttonactioncomponent_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.buttonactioncomponent_text {
+  font-weight: 600;
+}

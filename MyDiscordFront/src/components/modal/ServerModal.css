@@ -1,0 +1,45 @@
+.servermodal_container {
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.servermodal_header {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.servermodal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.servermodal_form_inputs {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.servermodal_form_inputs label {
+  white-space: nowrap;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.servermodal_form_inputs input {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: var(--primary-100);
+  border-radius: 0.375rem;
+}
+
+.servermodal_form_buttonaction:hover {
+  transform: translate(1, 1) rotate(1, 1) skewX(1) skewY(1) scaleX(1) scaleY(1);
+}

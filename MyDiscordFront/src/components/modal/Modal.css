@@ -1,0 +1,18 @@
+.modal_container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(23 23 23 / 0.7);
+  width: 100vw;
+  min-width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal_md {
+  z-index: 110;
+}

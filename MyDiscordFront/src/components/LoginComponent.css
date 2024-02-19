@@ -1,0 +1,108 @@
+.logincomponent_container {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+
+.logincomponent_title_container {
+  max-width: 24rem;
+  margin: 0 3rem;
+}
+
+.logincomponent_title {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  letter-spacing: -0.025em;
+  color: black;
+}
+
+.logincomponent_form_container {
+  margin-top: 2.5rem;
+  max-width: 24rem;
+}
+
+.logincomponent_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(1.5rem/* 24px */ * calc(1 - 0));
+  margin-bottom: calc(1.5rem/* 24px */ * calc(1 - 0));
+  gap: 1rem;
+}
+
+.logincomponent_form input {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--primary-100);
+  padding: 1rem;
+}
+
+.logincomponent_form input:nth-child(n+2) {
+  margin-top: 1rem;
+}
+
+.logincomponent_forgot_password_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logincomponent_buttons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.logincomponent_login_button {
+  width: 11rem;
+}
+
+.logincomponent_register_login_button {
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: var(--primary-400);
+}
+
+.logincomponent_register_login_button:hover {
+  color: var(--primary-300);
+}
+
+.logincomponent_register_button {
+  width: 11rem;
+}
+
+.logincomponent_register_button_sub {
+  text-align: center;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.logincomponent_login_button {
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .logincomponent_container {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .logincomponent_title_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .logincomponent_form_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+}

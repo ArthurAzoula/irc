@@ -1,0 +1,82 @@
+.discussion_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  overflow-y: auto;
+  flex: 1 1 auto;
+}
+
+.discussion_channel_selected {
+  background-color: rgb(245 243 255);
+  border-radius: 0.125rem;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.discussion_channel_container {
+  display: flex;
+  padding: 1rem 0.5rem;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.discussion_channel_container:hover {
+  background-color: rgb(245 243 255);
+  border-radius: 0.125rem;
+}
+
+.discussion_icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+}
+
+.discussion_channel_container_sub {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.25rem;
+  max-width: 100%;
+  max-height: 4rem;
+  overflow: hidden;
+}
+
+.discussion_channel_name {
+  text-align: left;
+  font-weight: 600;
+  color: black;
+}
+
+.discussion_channel_category_container {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: left;
+  color: rgb(82 82 82);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.discussion_channel_category_container_sub {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.discussion_channel_category_container_sub svg {
+  color: rgb(163 163 163);
+}
+
+.discussion_channel_time {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: rgb(163 163 163);
+  align-self: flex-end;
+  white-space: nowrap;
+  margin-block-start: auto;
+}

@@ -1,0 +1,83 @@
+.anonymous_container {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 1.5rem;
+  
+}
+
+.anonymous_input {
+  width: 100%;
+  height: 3.5rem;
+  background-color: var(--primary-100);
+  padding: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .anonymous_container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .anonymous_subcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 24rem;
+  }
+}
+
+.anonymous_subcontainer_second {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anonymous_title {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  letter-spacing: -0.025em;
+  color: black;
+}
+
+.anonymous_form {
+  margin-top: calc(1.5rem/* 24px */ * calc(1 - 0));
+  margin-bottom: calc(1.5rem/* 24px */ * calc(1 - 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.anonymous_input {
+  width: 24rem;
+  height: 3.5rem;
+}
+
+.anonymous_login {
+  flex-grow: 1;
+  width: 24rem;
+}
+
+.anonymous_register {
+  flex-grow: 1;
+  width: 24rem;
+}
+
+.back_to_register {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}

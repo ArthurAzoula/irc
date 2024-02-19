@@ -1,0 +1,92 @@
+.homescreen_container {
+  display: flex;
+  max-height: 100vh;
+  min-height: 100vh;
+  height: 100vh;
+  max-width: 100vw;
+  width: 100vw;
+  min-width: 100vw;
+}
+
+.channelheader_info_container input {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-100);
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.homescreen_sidebar_responsive {
+  display: none;
+  position: absolute;
+  z-index: 50;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+.homescreen_sidebar_show {
+  display: flex;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
+}
+
+.homescreen_menu_burger {
+  position: fixed;
+  top: 1rem;
+  left: 1.25rem;
+}
+
+.homescreen_menu_close {
+  position: fixed;
+  top: 1.25rem;
+  right: 1.5rem;
+  z-index: 75;
+}
+
+.homescreen_menu_burger svg, .homescreen_menu_close svg {
+  width: 2rem;
+  height: 2rem;
+  stroke: var(--primary-400);
+}
+
+.homescreen_userlist_show {
+  background-color: white;
+  border: none;
+  min-height: 100vh;
+  height: 100vh;
+  max-height: 100vh;
+  min-width: calc(100vw - 4rem);
+  width: calc(100vw - 4rem);
+  max-width: calc(100vw - 4rem);
+}
+
+.homescreen_userlist_hide {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .homescreen_sidebar_responsive {
+    display: flex;
+    position: relative;
+    min-width: auto;
+    width: auto;
+    max-width: none;
+  }
+  
+  .homescreen_menu_burger, .homescreen_menu_close, .homescreen_userlist_show {
+    display: none;
+  }
+  
+  .homescreen_sidebar_show {
+    display: flex;
+    position: relative;
+    max-width: auto;
+    min-width: auto;
+    width: auto;
+  }
+  
+  .homescreen_userlist_hide {
+    display: flex;
+  }
+}

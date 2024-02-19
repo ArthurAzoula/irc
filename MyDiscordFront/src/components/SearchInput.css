@@ -1,0 +1,26 @@
+.searchinput_container {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-100);
+  border-width: 1px;
+  border-radius: 0.75rem;
+  color: black;
+}
+
+.searchinput_icon {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.searchinput_input {
+  height: 2.5rem;
+  width: 100%;
+  padding-inline-end: 0.5rem;
+  background-color: transparent;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.searchinput_input:focus {
+  outline: none;
+}

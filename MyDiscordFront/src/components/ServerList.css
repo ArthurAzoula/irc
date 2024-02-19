@@ -1,0 +1,72 @@
+.serverlist_servers_container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+  width: 100%;
+  padding-left: 0.5rem;
+  flex: 1 1 auto;
+  min-height: 0px;
+}
+
+.serverlist_active_server {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+  box-shadow: 0 2px 6px -1px rgb(48, 48, 48) ;
+}
+
+.serverlist_active_server_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 1rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+.serverlist_active_server img:hover {
+  box-shadow: 0 2px 4px -1px rgba(163, 163, 163, 0.5);
+}
+
+.serverlist_buttons_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: flex-end;
+}
+
+.serverlist_buttons_sub_div {
+  background-color: var(--primary-100);
+  border-radius: 9999px;
+  padding: 0.5rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+.serverlist_buttons_sub_div:hover {
+  background-color: var(--primary-200);
+}
+
+.serverlist_buttons_sub_div_sb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.serverlist_icon {
+  color: var(--primary-500);
+}

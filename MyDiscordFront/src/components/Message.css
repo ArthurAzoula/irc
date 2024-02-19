@@ -1,0 +1,149 @@
+.message_container {
+  background-color: white;
+  color: black;
+  flex: 1 1 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message_header {
+  color: black;
+}
+
+.message_message_container {
+  overflow-y: auto;
+  width: 100%;
+}
+
+.message_no_messages_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message_no_messages_container_sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+}
+
+.message_no_messages_container_sub img {
+  width: 40rem;
+  height: 30rem;
+}
+
+.message_no_discussion_container img {
+  width: 40rem;
+  height: 30rem;
+}
+
+
+.message_no_messages_container_sub p {
+  font-size: 1.25rem;
+  line_height: 1.75rem;
+}
+
+.message_has_messages_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: calc(0.75rem/* 12px */ * 0);
+  margin-left: calc(0.75rem/* 12px */ * 1);
+  padding: 0.5rem;
+}
+
+.message_has_messages_container_center {
+  align-items: center;
+}
+
+.message_has_messages_container_end {
+  align-items: end;
+}
+
+.message_has_messages_container_start {
+  align-items: start;
+}
+
+.message_system_message_container {
+  display: flex;
+  justify-content: center;
+}
+
+.message_system_message_container_sub {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  color: black;
+}
+
+.message_is_message_container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.message_message_content {
+  padding: 0.75rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: rgb(220 221 222);
+}
+
+.message_message_content_self {
+  background-color: rgb(118 94 255);
+  color: white;
+}
+
+.message_no_discussion_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.message_no_discussion_container p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.message_avatar_img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+}
+
+.system_message_form {
+  font-size: 10px;
+  color: rgb(190, 190, 191);
+  margin-top: 0.5rem;
+  margin-left: 0.375rem;
+}
+
+.message_form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.message_form_input {
+  background-color: rgb(229 231 235);
+  width: 100%;
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+}
+
+.message_system_message_container_sub p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}

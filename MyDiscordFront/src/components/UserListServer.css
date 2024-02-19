@@ -1,0 +1,59 @@
+.userlistserver_container {
+  height: 100vh;
+  color: black;
+  border-left-width: 2px;
+  min-width: 20rem;
+  max-width: 20rem;
+  width: 20rem;
+}
+
+.userlistserver_scrollbar {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.userlistserver_container_sub {
+  min-width: 100%;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userlistserver_number_users {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  color: rgb(115 115 115);
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.userlistserver_members {
+  margin-bottom: 1rem;
+}
+
+.userlistserver_members > h3 {
+  font-size: 1.125rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.userlistserver_members > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.userlistserver_members > div > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.userlistserver_members > div > div > img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 9999px;
+}

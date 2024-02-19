@@ -1,0 +1,29 @@
+{
+  "cors": {
+    "origin": "https://localhost:8081",
+    "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
+    "preflightContinue": false,
+    "optionsSuccessStatus": 200,
+    "credentials": true
+  },
+  "ports": {
+    "api": 8082,
+    "socket": 8083
+  },
+  "CA": {
+    "organization": "MyDiscordOrg",
+    "countryCode": "FR",
+    "state": "France",
+    "locality": "France",
+    "validity": 365
+  },
+  "CERT": {
+    "domains": ["localhost"],
+    "validity": 365
+  },
+  "certification": {
+    "dir": "./certs",
+    "caName": "MyDiscordOrg",
+    "certName": "localhost"
+  }
+}
